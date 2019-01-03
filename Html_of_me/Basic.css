@@ -1,0 +1,130 @@
+/*----------Body---------------*/
+body{
+    background-color: white;
+}
+/*--------body - phan Header ---------*/ 
+body header{
+    position: relative;
+    top: 0px;
+    left: 0px;
+    /* background-color: yellow; */
+}
+body header ul{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 150px;
+    margin: 0;
+}
+body header .menu_bar a{
+    font-size: 120%;
+    font-weight: bold;
+    color: black;
+    padding: 12px;
+    margin: -2px;
+    /* background-color: aquamarine; */
+    /* word-spacing: -20px; */
+}
+body header .menu_bar a:hover{
+    background-color: blueviolet;
+}
+
+/*--------------body - Section - header -----------------*/
+body section{
+    background-color: #e5e5e5;
+    padding-bottom: 15px;
+}
+
+
+body section header{
+    margin-top: 100px;
+    position: relative;
+    background-color: #e5e5e5;
+}
+body section header .popular{
+    margin: 15px;
+    color: white;
+    background-color:palevioletred;
+}
+body section header .bt_right{
+    position: absolute;
+    right: 0;
+    margin: 15px;
+    width: 30px;
+}
+body section header .bt_left{
+    position: absolute;
+    right: 35px;
+    width: 30px;
+    margin: 15px;
+}
+
+/*-----------Body - Section - footer-----------*/
+body section footer{
+    background-color: #e5e5e5;
+    position: relative;
+    /* padding-top: 15px; */
+}
+
+body section footer img{
+    background-color: #e5e5e5;
+    padding-top: 15px;
+}
+body section footer p{
+    margin-top: 5px
+}
+
+body section footer .end{
+    position: absolute;
+    down: 0;
+    right: 15px;
+}
+/*-----------body - footer-----------*/
+body footer{
+    /* margin-top: 15px; */
+    padding-top: 0px;
+    background-color:gray;
+    position: relative;
+}
+
+body footer #left{
+    margin-top: 20px;
+    padding-left: 0px;
+    color: white;
+}
+
+/*------------ footer mid ---------------------*/
+body footer .img_mid{
+    width: 100px;
+}
+
+body footer div{
+    position: relative;
+}
+
+body footer div .text_1{
+    position: absolute;
+    top:48px ;
+    left: 125px;
+    font-size: 90%;
+    color: white;
+}
+body footer div .text_2{
+    position: absolute;
+    top:120px ;
+    left: 125px;
+    font-size: 90%;
+    color: white;
+}
+body footer div .text_3{
+    position: absolute;
+    top:192px ;
+    left: 125px;
+    font-size: 90%;
+    color: white;
+}
+
+/*--------------- footer right---------------------*/
+body footer .footer_right p{
+    color: white;
+}
